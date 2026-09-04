@@ -1,7 +1,2 @@
-This is a dummy disclaimer to display after the install
-
-The app url is <https://__DOMAIN____PATH__>
-
-The app install dir is `__INSTALL_DIR__`
-
-The app id is `__ID__`
+Open https://__DOMAIN__/ in your browser.
+On first launch you'll be asked to create an admin account. After that, create a goPodder user from the web UI and point your podcast app at the server.
