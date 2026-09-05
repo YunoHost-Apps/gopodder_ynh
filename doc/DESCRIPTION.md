@@ -1,4 +1,7 @@
-goPodder does one thing: it keeps your podcast subscriptions and episode progress in sync across devices and apps. **Just synchronization, done well.**
+goPodder does one thing: it keeps your podcast subscriptions and episode progress in sync across devices and apps.
+
+### Features
+
 - Works with AntennaPod, gPodder, Cardo, and anything else that speaks the gPodder sync protocol
 - Built-in web UI for managing accounts, users, devices, and subscriptions
 - REST API with API key auth for scripts, provisioning, and custom integrations
