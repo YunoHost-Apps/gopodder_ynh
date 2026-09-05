@@ -12,8 +12,6 @@ maintainers = []
 
 [upstream]
 license = "Apache-2.0"
-website = "https://github.com/cbrgm/gopodder"
-admindoc = "https://github.com/cbrgm/gopodder"
 code = "https://github.com/cbrgm/gopodder"
 
 [integration]
@@ -32,10 +30,6 @@ ram.runtime = "50M"
 [install]
     [install.domain]
     type = "domain"
-
-    [install.path]
-    type = "path"
-    default = "/gopodder"
     
     [install.init_main_permission]
     type = "group"

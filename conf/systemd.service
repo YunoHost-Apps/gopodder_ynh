@@ -6,9 +6,12 @@ Documentation=https://github.com/cbrgm/gopodder/blob/main/README.md
 Type=simple
 User=__APP__
 Group=__APP__
+WorkingDirectory=__INSTALL_DIR__/
 ExecStart=__INSTALL_DIR__/gopodder serve --listen-address 127.0.0.1:__PORT__ --db-path __DATA_DIR__/gopodder.db
 Restart=always
 
+### Depending on specificities of your service/app, you may need to tweak these
+### .. but this should be a good baseline
 # Sandboxing options to harden security
 # Details for these options: https://www.freedesktop.org/software/systemd/man/systemd.exec.html
 NoNewPrivileges=yes
