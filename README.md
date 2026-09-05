@@ -8,9 +8,8 @@ It shall NOT be edited by hand.
   goPodder, packaged for YunoHost
 </h1>
 
-A self-hostable podcast synchronization server compatible with the gPodder API
+Podcast synchronization server compatible with the gPodder API
 
-[![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://github.com/cbrgm/gopodder)
 [![Version: 1.2.5~ynh1](https://img.shields.io/badge/Version-1.2.5~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/gopodder/)
 
 <div align="center">
@@ -42,11 +41,6 @@ sudo yunohost app install https://github.com/YunoHost-Apps/gopodder_ynh/tree/tes
 sudo yunohost app upgrade gopodder -u https://github.com/YunoHost-Apps/gopodder_ynh/tree/testing
 ```
 
-You can also switch to the testing branch to update from testing by default (as same as for APT when you chose to use a testing repos) with this command:
-```bash
-sudo yunohost app setting gopodder upgrade_channel -v testing
-```
-
 ### 📚 App packaging documentation
 
-Please see <https://doc.yunohost.org/dev/packaging/> for more information.
+Please see <https://doc.yunohost.org/packaging_apps> for more information.
