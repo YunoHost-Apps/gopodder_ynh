@@ -6,7 +6,7 @@ name = "goPodder"
 description.en = "Podcast synchronization server compatible with the gPodder API"
 description.fr = "Serveur de synchronisation de podcast compatible avec l'API gPodder"
 
-version = "1.4.2~ynh1"
+version = "1.4.4~ynh1"
 
 maintainers = []
 
@@ -44,12 +44,12 @@ ram.runtime = "50M"
         extract = false
         rename = "gopodder"
 
-        amd64.url = "https://github.com/cbrgm/gopodder/releases/download/v1.4.2/gopodder_linux-amd64"
-        amd64.sha256 = "09067bb52401a635a5e047dd5ed9ab82276e18ab1b75a9056c4161c57afc45af"
-        arm64.url = "https://github.com/cbrgm/gopodder/releases/download/v1.4.2/gopodder_linux-arm64"
-        arm64.sha256 = "ea5dc5a45459ef8895ac332d7358227cb643b3993c63166d3713cc4248a6019d"
-        i386.url = "https://github.com/cbrgm/gopodder/releases/download/v1.4.2/gopodder_linux-386"
-        i386.sha256 = "e9f1e27227f8bce53e2c09278395563dd0438e300221fe2e5d4b456c77a28f3b"
+        amd64.url = "https://github.com/cbrgm/gopodder/releases/download/v1.4.4/gopodder_linux-amd64"
+        amd64.sha256 = "77155cce60cdaaaa795e317b5dabdb8eb7e83c1eb353894b35fb3a1fa32c98d9"
+        arm64.url = "https://github.com/cbrgm/gopodder/releases/download/v1.4.4/gopodder_linux-arm64"
+        arm64.sha256 = "29475fbd0b7ba1e7a0b3135852728ae98267329dfe32f734c8f515d3eb2fdb3e"
+        i386.url = "https://github.com/cbrgm/gopodder/releases/download/v1.4.4/gopodder_linux-386"
+        i386.sha256 = "0255c99608109eee1d16c2d7b7879ebd0df9dcc5b43d50f2911d97c5d1db08b9"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = "^gopodder_linux-amd64$"
